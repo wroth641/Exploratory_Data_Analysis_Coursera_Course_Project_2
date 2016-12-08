@@ -23,7 +23,7 @@ aggregatedTotalByYear <- aggregate(Emissions ~ year, subsetNEI, sum)
 
 
 
-png("plot5.png", width=840, height=480)
+png("plot4.png", width=840, height=480)
 g <- ggplot(aggregatedTotalByYear, aes(factor(year), Emissions))
 g <- g + geom_bar(stat="identity") +
   xlab("year") +
