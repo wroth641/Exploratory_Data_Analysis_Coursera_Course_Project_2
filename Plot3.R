@@ -27,4 +27,5 @@ g <- g + geom_line() +
   ylab(expression('Total PM'[2.5]*" Emissions")) +
   ggtitle('Total Emissions in Baltimore City, Maryland (fips == "24510") from 1999 to 2008')
 print(g)
+
 dev.off()
